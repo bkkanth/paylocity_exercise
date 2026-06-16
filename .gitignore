@@ -1,0 +1,19 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables — never commit secrets
+.env
+
+# Package build artifacts
+*.egg-info/
+dist/
+build/
+
+# Test cache
+.pytest_cache/
